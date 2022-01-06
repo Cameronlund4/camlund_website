@@ -8,8 +8,16 @@
     </p>
 
     <h2>
-      This is heavily WIP.
+      This is heavily WIP. What I want to add:
     </h2>
+    <ul>
+      <li>- Resume info, but cooler w/ pics</li>
+      <li>- How this site is made</li>
+      <li>- In depth info on Mealswipe (my company)</li>
+      <li>- How I started (minecraft)</li>
+      <li>- Robotics</li>
+      <li>- Personal info (cycling, etc)</li>
+    </ul>
   </div>
 </template>
 
