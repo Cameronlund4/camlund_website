@@ -3,13 +3,13 @@
     <div class="flex flex-row w-full" style="background: #A2BDDD">
       <div class="flex flex-col justify-center flex-1 w-full h-auto" style="color: #3E3C3C">
         <h1 class="text-4xl md:text-8xl">
-        Cameron Lund
+          Cameron Lund
         </h1>
         <p class="text-xl md:text-4xl ease-in transition-all">
           Infrastructure - Backend - Full Stack
         </p>
       </div>
-      <img src="me_picture.jpeg" class="w-1/3 h-auto" style="clip-path: polygon(20% 0, 0 100%, 100% 100%, 100% 0);">
+      <nuxt-img src="me_picture.jpeg" class="w-1/3 h-auto" style="clip-path: polygon(20% 0, 0 100%, 100% 100%, 100% 0);" />
     </div>
 
     <div class="mx-auto p-10 md:p-20">
