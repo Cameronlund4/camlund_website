@@ -3,11 +3,11 @@
     <div class="flex flex-row w-full" style="background: #A2BDDD">
       <div class="flex flex-col justify-center flex-1 w-full h-auto" style="color: #3E3C3C">
         <div>
-          <h1 class="text-4xl md:text-8xl">
-            Cameron Lund
-          </h1>
           <div class="inline-block">
-            <div class="flex flex-row w-auto justify-between">
+            <h1 class="text-4xl md:text-8xl">
+              Cameron Lund
+            </h1>
+            <div class="flex flex-row justify-between">
               <p class="text-xl md:text-4xl ease-in transition-all">
                 Infrastructure
               </p>
@@ -37,8 +37,8 @@
       <ul>
         <li>- Resume info, but cooler w/ pics</li>
         <li>- How this site is made</li>
-        <li>- In depth info on Mealswipe (my company)</li>
-        <li>- How I started (minecraft)</li>
+        <li>- In depth info on Disco Studios (my company)</li>
+        <li>- How I started (Minecraft)</li>
         <li>- Robotics</li>
         <li>- Personal info (cycling, etc)</li>
       </ul>
