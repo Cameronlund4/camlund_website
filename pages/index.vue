@@ -1,7 +1,7 @@
 <template>
-  <div class="" style="text-align: center">
+  <div class="" style="text-align: center; font-family: 'Open Sans'">
     <div class="flex flex-row w-full header-texture">
-      <div class="flex flex-col justify-center flex-1 w-full h-auto" style="color: #3E3C3C">
+      <div class="flex flex-col justify-center flex-1 w-full h-auto" style="color: #3E3C3C; font-family: Oswald">
         <div>
           <div class="inline-block">
             <h1 class="text-4xl md:text-8xl">
