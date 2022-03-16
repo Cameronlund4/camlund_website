@@ -9,7 +9,7 @@
           Infrastructure - Backend - Full Stack
         </p>
       </div>
-      <nuxt-img src="/me_picture.jpeg" class="w-1/3 h-auto" style="clip-path: polygon(20% 0, 0 100%, 100% 100%, 100% 0);" />
+      <img src="/me_picture.jpeg" class="w-1/3 h-auto" style="clip-path: polygon(20% 0, 0 100%, 100% 100%, 100% 0);">
     </div>
 
     <div class="mx-auto p-10 md:p-20">
