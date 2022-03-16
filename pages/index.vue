@@ -1,10 +1,13 @@
 <template>
   <div class="" style="text-align: center; font-family: 'Open Sans'">
-    <div class="flex flex-row w-full header-texture">
+    <div class="flex flex-col w-full header-texture justify-center align-middle sm:flex-row-reverse">
+      <div class="flex-none flex-row align-center w-full p-10 sm:p-0 sm:w-1/3">
+        <img src="~/assets/cam_cactus.png" class="h-auto header-img-cut">
+      </div>
       <div class="flex flex-col justify-center flex-1 w-full h-auto" style="color: #3E3C3C; font-family: Oswald">
         <div>
           <div class="inline-block">
-            <h1 class="text-4xl md:text-8xl">
+            <h1 class="text-6xl md:text-8xl">
               Cameron Lund
             </h1>
             <div class="flex flex-row justify-between">
@@ -27,10 +30,9 @@
           </div>
         </div>
       </div>
-      <img src="~/assets/cam_cactus.png" class="w-1/3 h-auto" style="clip-path: polygon(20% 0, 0 100%, 100% 100%, 100% 0);">
     </div>
 
-    <div class="mx-auto p-10 md:p-20">
+    <div class="mx-auto p-10 sm:p-20">
       <h2>
         This is heavily WIP. What I want to add:
       </h2>
@@ -63,5 +65,14 @@ export default {
     #A2BDDD;
     background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
     background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+  }
+
+  .header-img-cut {
+    clip-path: circle(40%);
+  }
+  @media (min-width: 640px) {
+    .header-img-cut {
+      clip-path: polygon(20% 0, 0 100%, 100% 100%, 100% 0);
+    }
   }
 </style>
