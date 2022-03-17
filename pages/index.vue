@@ -27,8 +27,10 @@
             </p>
           </div>
         </div>
-        <hr class="max-w-lg w-full m-5">
-        <p class="max-w-lg">
+        <div class="w-1/2 mt-5 sm:max-w-lg sm:w-full sm:m-5">
+          <hr class="w-full">
+        </div>
+        <p class="m-5 sm:m-0 sm:max-w-lg">
           Some nice description about me! Yay! Some nice description about me! Yay! Some nice description about me! Yay! Some nice description about me! Yay! Some nice description about me! Yay! Some nice description about me! Yay!
         </p>
       </div>
