@@ -4,31 +4,33 @@
       <div class="flex-none flex-row align-center w-full p-10 sm:p-0 sm:w-1/3">
         <img src="~/assets/cam_cactus.png" class="h-auto header-img-cut">
       </div>
-      <div class="flex flex-col justify-center flex-1 w-full h-auto" style="color: #3E3C3C; font-family: Oswald">
-        <div>
-          <div class="inline-block">
-            <h1 class="text-6xl md:text-8xl">
-              Cameron Lund
-            </h1>
-            <div class="flex flex-row justify-between">
-              <p class="text-xl md:text-4xl ease-in transition-all">
-                Infrastructure
-              </p>
-              <p class="text-xl md:text-4xl ease-in transition-all">
-                -
-              </p>
-              <p class="text-xl md:text-4xl ease-in transition-all">
-                Backend
-              </p>
-              <p class="text-xl md:text-4xl ease-in transition-all">
-                -
-              </p>
-              <p class="text-xl md:text-4xl ease-in transition-all">
-                Full Stack
-              </p>
-            </div>
+      <div class="flex flex-col justify-center items-center flex-1 w-full h-auto" style="color: #3E3C3C; font-family: Oswald">
+        <div class="inline-block">
+          <h1 class="text-6xl md:text-8xl">
+            Cameron Lund
+          </h1>
+          <div class="flex flex-row justify-between">
+            <p class="text-xl md:text-4xl ease-in transition-all">
+              Infrastructure
+            </p>
+            <p class="text-xl md:text-4xl ease-in transition-all">
+              -
+            </p>
+            <p class="text-xl md:text-4xl ease-in transition-all">
+              Backend
+            </p>
+            <p class="text-xl md:text-4xl ease-in transition-all">
+              -
+            </p>
+            <p class="text-xl md:text-4xl ease-in transition-all">
+              Full Stack
+            </p>
           </div>
         </div>
+        <hr class="max-w-lg w-full m-5">
+        <p class="max-w-lg">
+          Some nice description about me! Yay! Some nice description about me! Yay! Some nice description about me! Yay! Some nice description about me! Yay! Some nice description about me! Yay! Some nice description about me! Yay!
+        </p>
       </div>
     </div>
 
@@ -74,5 +76,12 @@ export default {
     .header-img-cut {
       clip-path: polygon(20% 0, 0 100%, 100% 100%, 100% 0);
     }
+  }
+
+  hr {
+    height:2px;
+    border-width:0;
+    color:#8191b3;
+    background-color:#8191b3;
   }
 </style>
